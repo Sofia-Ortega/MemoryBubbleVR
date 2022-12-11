@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 // loop through images[] in canvas - slide show of images
-public class changeImages : MonoBehaviour
+public class ChangeImages : MonoBehaviour
 {
     public Image currImage;
     public Sprite[] images;
@@ -12,6 +12,9 @@ public class changeImages : MonoBehaviour
     private float waitTime = 5; // 5 seconds between pictures
     private int index;
     private FunctionTimer functionTimer;
+
+
+    private float a;
 
     void Start()
     {
