@@ -6,13 +6,14 @@ using UnityEngine.UI;
 // Renders image slide show arter *timer* amount of time
 public class RenderCanvas : MonoBehaviour
 {
-    public Image panel;
-    public Image image;
+    public Image panel; // object of 'brown' background of image
+    public Image image; // object of image slideshow
     
 
     private float timer = 10f; // Amount of time before pictures appear
     private bool activated = false;
 
+    // deactivate view of image slideshow
     void Start()
     {
         panel.gameObject.SetActive(false);

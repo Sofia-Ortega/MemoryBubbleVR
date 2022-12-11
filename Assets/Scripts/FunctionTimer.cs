@@ -6,8 +6,8 @@ using UnityEngine;
 // class of timer
 public class FunctionTimer : MonoBehaviour
 {
-    private Action action;
-    private float timer;
+    private Action action; // action to be executed in 'timer' seconds
+    private float timer; // amount of time in between each 'action' execution
     private float timeSum; 
     public FunctionTimer(Action action, float timer) {
 
@@ -18,10 +18,10 @@ public class FunctionTimer : MonoBehaviour
     }
 
 
+    // executes 'action' each 'timer' seconds
     public void Update() { 
         timeSum += Time.deltaTime;
 
-        
         if (timeSum > timer) {
             // trigger the actiona
             timeSum = 0;
