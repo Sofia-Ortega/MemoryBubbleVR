@@ -36,11 +36,11 @@ Figure 3: Moving interacting with slideshow
 
 
 ## Files
-The code has 4 main C# files: 
-- `RenderCanvas.cs`: Renders canvas (image slideshow) after certain amount of time
-- `LookAtUser.cs`: Personal pictures faces User
-- `ChangeImages.cs`: Rotates through given array of images
-- `FunctionTimer.cs`: Creates timer to execute function after given time. Helper class
+The code has 4 main C# files, found in directory [/Assets/Scripts](https://github.com/Sofia-Ortega/MemoryBubbleVR/tree/main/Assets/Scripts)
+- [RenderCanvas.cs](https://github.com/Sofia-Ortega/MemoryBubbleVR/blob/main/Assets/Scripts/RenderCanvas.cs): Renders canvas (image slideshow) after certain amount of time
+- [LookAtUser.cs](https://github.com/Sofia-Ortega/MemoryBubbleVR/blob/main/Assets/Scripts/LookAtUser.cs): Personal pictures faces User
+- [ChangeImages.cs](https://github.com/Sofia-Ortega/MemoryBubbleVR/blob/main/Assets/Scripts/ChangeImages.cs): Rotates through given array of images
+- [FunctionTimer.cs](https://github.com/Sofia-Ortega/MemoryBubbleVR/blob/main/Assets/Scripts/FunctionTimer.cs): Creates timer to execute function after given time. Helper class
 
 
 ## Future Improvements
